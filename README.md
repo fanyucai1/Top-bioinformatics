@@ -37,7 +37,7 @@ python学习在线资源
 
 ACMG中文指南
 
-##9. [OncoKB: A Precision Oncology Knowledge Base](https://www.oncokb.org/)
+## 9. [OncoKB: A Precision Oncology Knowledge Base](https://www.oncokb.org/)
 
 Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库
 
