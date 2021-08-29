@@ -18,14 +18,13 @@ python学习在线资源
 
 书籍下载链接
 
-## 6. 
+## 6. 在线Markdown简单实用说明
 
 ### 6-1. [Markdow](https://commonmark.org/help/)
 
 ### 6-2. [Markdown 入门参考](https://github.com/LearnShare/Learning-Markdown)
-在线Markdown简单实用说明
 
-## 7. 
+## 7. 变异位点命名
 
 ### 7-1. [Mutalyzer](https://mutalyzer.nl)
 
