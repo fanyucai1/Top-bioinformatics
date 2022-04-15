@@ -19,15 +19,26 @@
 
 `ACMG中文指南 <http://acmg.cbgc.org.cn/doku.php?id=start>`_
 
-`Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库 OncoKB: A Precision Oncology Knowledge Base <https://www.oncokb.org/>`
+`Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库 OncoKB: A Precision Oncology Knowledge Base <https://www.oncokb.org/>`_
 
 `medicalxpress <https://medicalxpress.com/>`_
 
-`genomeweb <https://www.genomeweb.com/>`
+`genomeweb <https://www.genomeweb.com/>`_
 
 `测序中国 <https://www.seqchina.cn/>`_
 
 `github中文排行榜 <https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts>`_
+
+命名标准化
+=====================
+
+`HGNC:https://www.genenames.org <https://www.genenames.org>`_
+
+`GeneCards:https://www.genecards.org <GeneCards>`_
+
+`变异位点命名:Mutalyzer <https://mutalyzer.nl>`_
+
+`变异位点命名:VariantValidator <https://variantvalidator.org>`_
 
 序列重比对
 ==================
@@ -36,6 +47,30 @@
 UCSC资源
 ===================
 
+`For hg19:http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/latest/ <http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/latest/>`_
+
+`For hg38:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/ <http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/>`_
 
 Metagenomic
 ======================
+
+`Kraken Wiki:https://github.com/DerrickWood/kraken2/wiki <https://github.com/DerrickWood/kraken2/wiki>`_
+
+`Kraken index: https://benlangmead.github.io/aws-indexes/k2 <https://benlangmead.github.io/aws-indexes/k2>`
+
+`FDA-ARGOS is a database with public quality-controlled reference genomes for diagnostic use and regulatory science <https://www.ncbi.nlm.nih.gov/bioproject/231221>`_
+Linux
+===============
+
+`CentOS Repositories:https://centos.pkgs.org <https://centos.pkgs.org>`_
+
+
+Covidseq
+=========================
+
+`Nextclade:https://clades.nextstrain.org <https://clades.nextstrain.org>`_
+
+`GISAID <https://www.gisaid.org/epiflu-applications/covsurver-mutations-app/>`_
+
+`NCBI Coronavirus genomes <https://www.ncbi.nlm.nih.gov/datasets/coronavirus/genomes/>`_
+
