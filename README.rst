@@ -75,3 +75,9 @@ Covidseq
 
 `NCBI Coronavirus genomes <https://www.ncbi.nlm.nih.gov/datasets/coronavirus/genomes/>`_
 
+文档转化
+=================
+
+`Pandoc a universal document converter <https://pandoc.org/index.html>`_
+
+
