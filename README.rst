@@ -66,14 +66,6 @@ Linux
 `CentOS Repositories:https://centos.pkgs.org <https://centos.pkgs.org>`_
 
 
-Covidseq
-=========================
-
-`Nextclade:https://clades.nextstrain.org <https://clades.nextstrain.org>`_
-
-`GISAID <https://www.gisaid.org/epiflu-applications/covsurver-mutations-app/>`_
-
-`NCBI Coronavirus genomes <https://www.ncbi.nlm.nih.gov/datasets/coronavirus/genomes/>`_
 
 文档转化
 =================
