@@ -74,4 +74,20 @@ Linux
 
 `Pandoc a universal document converter <https://pandoc.org/index.html>`_
 
+安装python3
+====================
+::
+
+    mkdir -p /usr/local/openssl/
+    cd /software/ && tar -zxvf openssl-1.1.1m.tar.gz
+    cd /software/openssl-1.1.1m/ && ./config --prefix=/usr/local/openssl
+    make -j20
+    make install
+    mv /usr/bin/openssl /usr/bin/openssl.old
+    mv /usr/lib64/openssl /usr/lib64/openssl.old
+    ln -s /usr/local/openssl/bin/openssl /usr/bin/openssl
+    ln -s /usr/local/openssl/include/openssl /usr/include/openssl
+    echo "/usr/local/openssl/lib" >> /etc/ld.so.conf
+    ldconfig -v
+    RUN cd /software/python3 && tar xvf Python-3.10.5.tgz && cd Python-3.10.5 && ./configure --prefix=/software/python3/Python-v3.10.5 --with-openssl=/usr/local/openssl && make -j20 && make install
 
