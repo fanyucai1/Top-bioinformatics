@@ -137,3 +137,10 @@ hg19(fasta)
 ::
 
     ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.gz
+
+Genomic Data Commons (GDC) Data User’s Guide_bioinformatic
+==========================================================================
+::
+
+:download:`Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf <Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf>`
+
