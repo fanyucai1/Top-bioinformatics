@@ -141,5 +141,6 @@ hg19(fasta)
 Genomic Data Commons (GDC) Data User’s Guide_bioinformatic
 ==========================================================================
 
-:download:`Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf <Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf>`
+:download:`Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf <./Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf>`
+
 
