@@ -91,3 +91,49 @@ Linux
     ldconfig -v
     RUN cd /software/python3 && tar xvf Python-3.10.5.tgz && cd Python-3.10.5 && ./configure --prefix=/software/python3/Python-v3.10.5 --with-openssl=/usr/local/openssl && make -j20 && make install
 
+关于liftover
+===================
+文件下载 ::
+
+	ftp://gsapubftp-anonymous@ftp.broadinstitute.org/Liftover_Chain_Files
+	http://hgdownload.cse.ucsc.edu/gbdb/hg19/liftOver/hg19ToHg38.over.chain.gz
+	http://crossmap.sourceforge.net/#chain-file
+
+数据分析命令 ::
+
+   command
+   -------------------------
+    /gatk  --java-options "-Djava.io.tmpdir=./ -Xmx60G"" LiftoverVcf -I clinvar_20190123.vcf.gz -O clinvar_20190123.hg19.vcf.gz -R ucsc.hg19.fasta --REJECT unmapped.vcf -C b37tohg19.chain
+    bgzip -c af-only-gnomad.raw.sites.hg19.vcf > af-only-gnomad.raw.sites.hg19.vcf.gz
+    tabix -p vcf af-only-gnomad.raw.sites.hg19.vcf.gz
+
+dbSNP
+=========================
+::
+
+    基于hg19 ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh37p13/VCF/00-All.vcf.gz
+    基于hg38 ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-All.vcf.gz
+
+gnomAD
+=========================
+::
+
+    基于hg19 http://hgdownload.cse.ucsc.edu/gbdb/hg19/gnomAD/vcf/
+
+clinvar
+=========================
+::
+
+    ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/
+
+ExAC
+=========================
+::
+
+    http://hgdownload.cse.ucsc.edu/gbdb/hg19/ExAC/
+
+hg19(fasta)
+=========================
+::
+
+    ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.gz
