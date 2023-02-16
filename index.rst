@@ -143,6 +143,5 @@ Genomic Data Commons (GDC) Data User’s Guide_bioinformatic
 
 :download:`Genomic Data Commons (GDC) Data User’s Guide_bioinformatic.pdf <./1.pdf>`
 
-:download:`DRAGEN v4.0.pptx <./official_documents/DRAGEN v4.0.pptx>`
 
 
