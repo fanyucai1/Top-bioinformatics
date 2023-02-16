@@ -103,7 +103,7 @@ Linux
 
    command
    -------------------------
-    /gatk  --java-options "-Djava.io.tmpdir=./ -Xmx60G"" LiftoverVcf -I clinvar_20190123.vcf.gz -O clinvar_20190123.hg19.vcf.gz -R ucsc.hg19.fasta --REJECT unmapped.vcf -C b37tohg19.chain
+    gatk  --java-options "-Djava.io.tmpdir=./ -Xmx60G"" LiftoverVcf -I clinvar_20190123.vcf.gz -O clinvar_20190123.hg19.vcf.gz -R ucsc.hg19.fasta --REJECT unmapped.vcf -C b37tohg19.chain
     bgzip -c af-only-gnomad.raw.sites.hg19.vcf > af-only-gnomad.raw.sites.hg19.vcf.gz
     tabix -p vcf af-only-gnomad.raw.sites.hg19.vcf.gz
 
