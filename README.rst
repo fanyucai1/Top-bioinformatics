@@ -97,9 +97,20 @@ Linux
 ===================
 文件下载 ::
 
-	ftp://gsapubftp-anonymous@ftp.broadinstitute.org/Liftover_Chain_Files
-	http://hgdownload.cse.ucsc.edu/gbdb/hg19/liftOver/hg19ToHg38.over.chain.gz
-	http://crossmap.sourceforge.net/#chain-file
+A chain file describes a pairwise alignment between two reference assemblies. UCSC and Ensembl chain files are available:
+
+UCSC chain files
+
+    Chain files from hs1 (T2T-CHM13) to hg38/hg19/mm10/mm9 (ore vice versa): https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/
+
+    Chain files from hg38 (GRCh38) to hg19 and all other organisms: http://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/
+
+    Chain File from hg19 (GRCh37) to hg17/hg18/hg38 and all other organisms: http://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/
+
+Ensembl chain files
+
+Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
+
 
 数据分析命令 ::
 
