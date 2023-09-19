@@ -197,5 +197,6 @@ https://console.cloud.google.com/storage/browser/gatk-test-data
 
 Description: Additional public test data focusing on smaller data sets. For example, whole genome BAM, FASTQ, gVCF, VCF, etc. Example Workspaces include:**Somatic-CNVs-GATK4**
 
-
-
+人类参考基因组说明Human genome reference builds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://gatk.broadinstitute.org/hc/en-us/articles/360035890951-Human-genome-reference-builds-GRCh38-or-hg38-b37-hg19
