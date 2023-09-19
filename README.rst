@@ -164,38 +164,47 @@ GATK资源下载
 genomics-public-data
 +++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/genomics-public-data
+
 Description: Cloud Life Sciences provides a variety of public datasets that can be accessed for free and integrated into your applications. Google hosts these datasets, providing public access to the data through the following methods.
-Owned by the Broad Institute
+
 This article lists public Google buckets accessible to the public. The buckets contain an assortment of reference, resource, and sample test data which can be used in GATK workflows.
 
 gcp-public-data--broad-references
 +++++++++++++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references
-Bucket path: gs://gcp-public-data--broad-references
+
 Description: This is the Broad's public hg38 and b37 reference and resource data. Additional information can be found in the GATK Resource Bundle article. This bucket is controlled by Broad, but hosted by Google. Example workspaces include:
+
 Whole-Genome-Analysis-Pipeline
+
 GATK4-Germline-Preprocessing-VariantCalling-JointCalling
 
 gatk-legacy-bundles
 +++++++++++++++++++++++++++++++++++
-Bucket path: https://console.cloud.google.com/storage/browser/gatk-legacy-bundles
+https://console.cloud.google.com/storage/browser/gatk-legacy-bundles
+
 Description: Broad public legacy b37 and hg19 reference and resource data.
 
 broad-public-datasets
 +++++++++++++++++++++++++++++++++++
-Bucket path: https://console.cloud.google.com/storage/browser/broad-public-datasets
+https://console.cloud.google.com/storage/browser/broad-public-datasets
+
 Description: Stores public test data, often used to test workflows. For example, it contains NA12878 CRAM, gVCF, and unmapped BAM files.
 
 gatk-best-practices
 +++++++++++++++++++++++++++++++++++
-Bucket path: https://console.cloud.google.com/storage/browser/gatk-best-practices
+https://console.cloud.google.com/storage/browser/gatk-best-practices
+
 Description: Stores GATK workflow specific plumbing, reference, and resources data. Example workspaces include:
+
 Somatic-SNVs-Indels-GATK4
 
 gatk-test-data
 +++++++++++++++++++++++++++++++++++
-Bucket path: https://console.cloud.google.com/storage/browser/gatk-test-data
+https://console.cloud.google.com/storage/browser/gatk-test-data
+
 Description: Additional public test data focusing on smaller data sets. For example, whole genome BAM, FASTQ, gVCF, VCF, etc. Example Workspaces include:
+
 Somatic-CNVs-GATK4.
 
 
