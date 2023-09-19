@@ -165,19 +165,14 @@ genomics-public-data
 +++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/genomics-public-data
 
-Description: Cloud Life Sciences provides a variety of public datasets that can be accessed for free and integrated into your applications. Google hosts these datasets, providing public access to the data through the following methods.
-
-This article lists public Google buckets accessible to the public. The buckets contain an assortment of reference, resource, and sample test data which can be used in GATK workflows.
+Description: The buckets contain an assortment of reference, resource, and sample test data which can be used in GATK workflows.
 
 gcp-public-data--broad-references
 +++++++++++++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references
 
-Description: This is the Broad's public hg38 and b37 reference and resource data. Additional information can be found in the GATK Resource Bundle article. This bucket is controlled by Broad, but hosted by Google. Example workspaces include:
-
-Whole-Genome-Analysis-Pipeline
-
-GATK4-Germline-Preprocessing-VariantCalling-JointCalling
+Description: This is the Broad's public hg38 and b37 reference and resource data. Additional information can be found in the GATK Resource Bundle article.
+Example workspaces include:Whole-Genome-Analysis-Pipeline,GATK4-Germline-Preprocessing-VariantCalling-JointCalling
 
 gatk-legacy-bundles
 +++++++++++++++++++++++++++++++++++
@@ -197,7 +192,7 @@ https://console.cloud.google.com/storage/browser/gatk-best-practices
 
 Description: Stores GATK workflow specific plumbing, reference, and resources data. Example workspaces include:
 
-Somatic-SNVs-Indels-GATK4
+**Somatic-SNVs-Indels-GATK4**
 
 gatk-test-data
 +++++++++++++++++++++++++++++++++++
@@ -205,7 +200,7 @@ https://console.cloud.google.com/storage/browser/gatk-test-data
 
 Description: Additional public test data focusing on smaller data sets. For example, whole genome BAM, FASTQ, gVCF, VCF, etc. Example Workspaces include:
 
-Somatic-CNVs-GATK4.
+**Somatic-CNVs-GATK4**
 
 
 
