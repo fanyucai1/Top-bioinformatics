@@ -171,8 +171,7 @@ gcp-public-data--broad-references
 +++++++++++++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/gcp-public-data--broad-references
 
-Description: This is the Broad's public hg38 and b37 reference and resource data. Additional information can be found in the GATK Resource Bundle article.
-Example workspaces include:Whole-Genome-Analysis-Pipeline,GATK4-Germline-Preprocessing-VariantCalling-JointCalling
+Description: This is the Broad's public hg38 and b37 reference and resource data.Example workspaces include:**Whole-Genome-Analysis-Pipeline,GATK4-Germline-Preprocessing-VariantCalling-JointCalling**
 
 gatk-legacy-bundles
 +++++++++++++++++++++++++++++++++++
@@ -190,17 +189,13 @@ gatk-best-practices
 +++++++++++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/gatk-best-practices
 
-Description: Stores GATK workflow specific plumbing, reference, and resources data. Example workspaces include:
-
-**Somatic-SNVs-Indels-GATK4**
+Description: Stores GATK workflow specific plumbing, reference, and resources data. Example workspaces include:**Somatic-SNVs-Indels-GATK4**
 
 gatk-test-data
 +++++++++++++++++++++++++++++++++++
 https://console.cloud.google.com/storage/browser/gatk-test-data
 
-Description: Additional public test data focusing on smaller data sets. For example, whole genome BAM, FASTQ, gVCF, VCF, etc. Example Workspaces include:
-
-**Somatic-CNVs-GATK4**
+Description: Additional public test data focusing on smaller data sets. For example, whole genome BAM, FASTQ, gVCF, VCF, etc. Example Workspaces include:**Somatic-CNVs-GATK4**
 
 
 
