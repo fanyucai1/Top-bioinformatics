@@ -103,6 +103,7 @@ Linux
 **Ensembl chain files**
 
     Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
+**Tools**
 
 CrossMap:https://crossmap.sourceforge.net/
 
@@ -115,37 +116,6 @@ picard:https://gatk.broadinstitute.org/hc/en-us/articles/360037060932-LiftoverVc
      REJECT=rejected_variants.vcf \\
      R=reference_sequence.fasta
      其中The reference sequence (fasta) for the TARGET genome build
-
-dbSNP
-=========================
-::
-
-    基于hg19 ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh37p13/VCF/00-All.vcf.gz
-    基于hg38 ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-All.vcf.gz
-
-gnomAD
-=========================
-::
-
-    基于hg19 http://hgdownload.cse.ucsc.edu/gbdb/hg19/gnomAD/vcf/
-
-clinvar
-=========================
-::
-
-    ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh37/
-
-ExAC
-=========================
-::
-
-    http://hgdownload.cse.ucsc.edu/gbdb/hg19/ExAC/
-
-hg19(fasta)
-=========================
-::
-
-    ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.gz
 
 Genomic Data Commons (GDC) Data User’s Guide_bioinformatic
 ==========================================================================
