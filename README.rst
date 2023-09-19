@@ -91,11 +91,8 @@ Linux
 
 关于liftover
 ===================
-文件下载 ::
 
-A chain file describes a pairwise alignment between two reference assemblies. UCSC and Ensembl chain files are available:
-
-UCSC chain files
+**UCSC chain files**
 
     Chain files from hs1 (T2T-CHM13) to hg38/hg19/mm10/mm9 (ore vice versa): https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/
 
@@ -103,7 +100,7 @@ UCSC chain files
 
     Chain File from hg19 (GRCh37) to hg17/hg18/hg38 and all other organisms: http://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/
 
-Ensembl chain files
+**Ensembl chain files**
 
     Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
 
