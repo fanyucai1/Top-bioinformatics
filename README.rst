@@ -102,7 +102,7 @@ Linux
 
 **Ensembl chain files**
 
-    Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
+    Human to Human: http://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
 **Tools**
 
 CrossMap:https://crossmap.sourceforge.net/
