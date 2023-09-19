@@ -107,11 +107,9 @@ Ensembl chain files
 
     Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
 
-tools
+CrossMap:https://crossmap.sourceforge.net/
 
-    CrossMap:https://crossmap.sourceforge.net/
-
-picard ::
+picard:https://gatk.broadinstitute.org/hc/en-us/articles/360037060932-LiftoverVcf-Picard- ::
 
     java -jar picard.jar LiftoverVcf \\
      I=input.vcf \\
@@ -119,14 +117,7 @@ picard ::
      CHAIN=b37tohg38.chain \\
      REJECT=rejected_variants.vcf \\
      R=reference_sequence.fasta
-
-数据分析命令 ::
-
-   command
-   -------------------------
-    gatk  --java-options "-Djava.io.tmpdir=./ -Xmx60G"" LiftoverVcf -I clinvar_20190123.vcf.gz -O clinvar_20190123.hg19.vcf.gz -R ucsc.hg19.fasta --REJECT unmapped.vcf -C b37tohg19.chain
-    bgzip -c af-only-gnomad.raw.sites.hg19.vcf > af-only-gnomad.raw.sites.hg19.vcf.gz
-    tabix -p vcf af-only-gnomad.raw.sites.hg19.vcf.gz
+     其中The reference sequence (fasta) for the TARGET genome build
 
 dbSNP
 =========================
