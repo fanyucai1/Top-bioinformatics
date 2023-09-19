@@ -67,14 +67,10 @@ Linux
 
 `CentOS Repositories:https://centos.pkgs.org <https://centos.pkgs.org>`_
 
-
-
 文档转化
 =================
 
 `Pandoc a universal document converter <https://pandoc.org/index.html>`_
-
-
 
 安装python3
 ====================
@@ -109,8 +105,20 @@ UCSC chain files
 
 Ensembl chain files
 
-Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
+    Human to Human: ftp://ftp.ensembl.org/pub/assembly_mapping/homo_sapiens/
 
+tools
+
+    CrossMap:https://crossmap.sourceforge.net/
+
+picard ::
+
+    java -jar picard.jar LiftoverVcf \\
+     I=input.vcf \\
+     O=lifted_over.vcf \\
+     CHAIN=b37tohg38.chain \\
+     REJECT=rejected_variants.vcf \\
+     R=reference_sequence.fasta
 
 数据分析命令 ::
 
