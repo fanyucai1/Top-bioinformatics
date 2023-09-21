@@ -65,7 +65,7 @@ Metagenomic
 Linux
 ===============
 
-`CentOS Repositories:https://centos.pkgs.org <https://centos.pkgs.org>`_
+`Packages for Linux and Unix:https://pkgs.org/ <https://pkgs.org/>`_
 
 文档转化
 =================
