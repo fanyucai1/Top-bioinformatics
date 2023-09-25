@@ -87,7 +87,7 @@ Linux
     ln -s /usr/local/openssl/include/openssl /usr/include/openssl
     echo "/usr/local/openssl/lib" >> /etc/ld.so.conf
     ldconfig -v
-    RUN cd /software/python3 && tar xvf Python-3.10.5.tgz && cd Python-3.10.5 && ./configure --prefix=/software/python3/Python-v3.10.5 --with-openssl=/usr/local/openssl && make -j20 && make install
+    cd /software/python3 && tar xvf Python-3.10.5.tgz && cd Python-3.10.5 && ./configure --prefix=/software/python3/Python-v3.10.5 --with-openssl=/usr/local/openssl && make -j20 && make install
 
 关于liftover
 ===================
