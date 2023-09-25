@@ -167,3 +167,7 @@ Description: Additional public test data focusing on smaller data sets. For exam
 人类参考基因组说明Human genome reference builds
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://gatk.broadinstitute.org/hc/en-us/articles/360035890951-Human-genome-reference-builds-GRCh38-or-hg38-b37-hg19
+
+Genome in a Bottle Consortium Genomes
+============================================================
+.. image:: GIAB.png
