@@ -170,4 +170,6 @@ https://gatk.broadinstitute.org/hc/en-us/articles/360035890951-Human-genome-refe
 
 Genome in a Bottle Consortium Genomes
 ============================================================
+`相关资源链接：https://github.com/genome-in-a-bottle <https://github.com/genome-in-a-bottle>`_
+
 .. image:: GIAB.png
