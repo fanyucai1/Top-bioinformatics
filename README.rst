@@ -5,6 +5,8 @@
 
 `R语言学习资源:Cookbook for R <http://www.cookbook-r.com>`_
 
+`R语言学习资源:tidyverse <https://www.tidyverse.org/>`_
+
 `python学习在线资源:Cookbook for python <http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html>`_
 
 `文献下载网站:GeenMedical <https://www.geenmedical.com>`_
