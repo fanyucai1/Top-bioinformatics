@@ -175,3 +175,7 @@ Genome in a Bottle Consortium Genomes
 `相关资源链接：https://github.com/genome-in-a-bottle <https://github.com/genome-in-a-bottle>`_
 
 .. image:: GIAB.png
+
+GWAS研究资源
+=========================
+`GWASLab–GWAS实验室 <https://gwaslab.org/>`_
