@@ -183,7 +183,7 @@ GWAS研究资源
 NGS数据模拟: InSilicoSeq
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Install: docker pull hadrieng/insilicoseq:latest
+docker pull hadrieng/insilicoseq:latest
 
 Document user guide: https://insilicoseq.readthedocs.io/en/latest/iss/generate.html
 
@@ -193,7 +193,7 @@ command ::
     --rm hadrieng/insilicoseq iss generate --genomes /mnt/data/combine.fna \
     -m NovaSeq -z -o /mnt/data/reads --cpus 50 --coverage_file /mnt/data/coverage.txt
 
-coverage.txt ::
+**coverage.txt** ::
 
     BA.1.1 2100
     BA.5.1 600
@@ -201,7 +201,7 @@ coverage.txt ::
     BF.7.14 300
     B.1.617.2 150
 
-parameter ::
+**parameter** ::
 
     InSilicoSeq comes with 3 error models:
 
