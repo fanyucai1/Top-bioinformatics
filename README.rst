@@ -180,7 +180,7 @@ GWAS研究资源
 =========================
 `GWASLab–GWAS实验室 <https://gwaslab.org/>`_
 
-A sequencing simulator: InSilicoSeq
+NGS数据模拟: InSilicoSeq
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Install: docker pull hadrieng/insilicoseq:latest
