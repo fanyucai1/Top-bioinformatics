@@ -312,10 +312,15 @@ somatic
     DNA-Seq analysis is implemented across six main procedures
 
         Genome Alignment
+
         Alignment Co-Cleaning
+
         Somatic Variant Calling
+
         Variant Annotation
+
         Mutation Aggregation
+
         Aggregated Mutation Masking
 
 3.  `Menzel M, Ossowski S, Kral S, et al. Multicentric pilot study to standardize clinical whole exome sequencing (WES) for cancer patients[J]. NPJ Precision Oncology, 2023, 7(1): 106. <https://www.nature.com/articles/s41698-023-00457-x>`_
