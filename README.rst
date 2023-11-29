@@ -301,7 +301,7 @@ somatic
 ======================
 1.  AACR Project GENIE
 
-    ![AACR Project GENIE](./Large_GENIE_logo.jpg)
+    .. image:: ./soamtic/Large_GENIE_logo.jpg
 
     `AACR Project GENIE:https://www.synapse.org/#!Synapse:syn7222066/wiki/405659 <https://www.synapse.org/#!Synapse:syn7222066/wiki/405659>`_
 
@@ -320,7 +320,7 @@ somatic
 
 3.  `Menzel M, Ossowski S, Kral S, et al. Multicentric pilot study to standardize clinical whole exome sequencing (WES) for cancer patients[J]. NPJ Precision Oncology, 2023, 7(1): 106. <https://www.nature.com/articles/s41698-023-00457-x>`_
 
-    .. image:: somatic/protocols.png
+    .. image:: ./somatic/protocols.png
 
 4.  `Cortés-Ciriano I, Gulhan D C, Lee J J K, et al. Computational analysis of cancer genome sequencing data[J]. Nature Reviews Genetics, 2022, 23(5): 298-314. <https://www.nature.com/articles/s41576-021-00431-y>`_
 
