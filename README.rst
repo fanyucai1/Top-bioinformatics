@@ -332,3 +332,15 @@ somatic
 5.  1000 Genomes Project
 
     Details of the analyses and the pipeline can be found at https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/20190405_NYGC_b38_pipeline_description.pdf
+
+other
+=================
+1. Illustration of relationship between sequencing depth and variant call confidence as a function of VAF.
+
+    .. image:: depth_VAF.jpg
+
+2.  Example of a valid VCF file with header and a few variant site records.
+
+    .. image:: VCF.jpg
+
+`Larson N B, Oberg A L, Adjei A A, et al. A clinician’s guide to bioinformatics for next-generation sequencing[J]. Journal of Thoracic Oncology, 2023, 18(2): 143-157. <https://www.sciencedirect.com/science/article/pii/S1556086422019086>`_
