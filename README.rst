@@ -344,3 +344,25 @@ other
     .. image:: VCF.jpg
 
 `Larson N B, Oberg A L, Adjei A A, et al. A clinician’s guide to bioinformatics for next-generation sequencing[J]. Journal of Thoracic Oncology, 2023, 18(2): 143-157. <https://www.sciencedirect.com/science/article/pii/S1556086422019086>`_
+
+
+Online Knowledge Bases to Aid Clinical Decision Making
+====================================================================
+`My Cancer Genome:www.mycancergenome.org <www.mycancergenome.org>`_
+
+`JAX Clinical Knowledgebase:https://ckb.jax.org <https://ckb.jax.org>`_
+
+`Clinical Interpretation of Variants in Cancer:https://civic.genome.wustl.edu> <https://civic.genome.wustl.edu>`_
+
+`Oncology Knowledge Base:https://oncokb.org <https://oncokb.org>`_
+
+`Clinical Genome:https://clinicalgenome.org <https://clinicalgenome.org>`_
+
+1.  For hot spot testing, coverage of at least 100–300X is recommended.
+
+2.  Example of Hierarchy of Evidence of Genomic Alterations
+
+    .. image:: Hierarchy.jpeg
+
+`Schwartzberg L, Kim E S, Liu D, et al. Precision oncology: who, how, what, when, and when not?[J]. American Society of Clinical Oncology Educational Book, 2017, 37: 160-169. <https://ascopubs.org/doi/abs/10.1200/EDBK_174176>`_
+
