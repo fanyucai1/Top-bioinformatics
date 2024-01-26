@@ -31,6 +31,8 @@
 
 `github中文排行榜 <https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts>`_
 
+`Pycharm软件激活 <https://www.ajihuo.com/>`_
+
 命名标准化
 =====================
 
