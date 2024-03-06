@@ -150,6 +150,10 @@
 
     [Olson N D, Wagner J, Dwarshuis N, et al. Variant calling and benchmarking in an era of complete human genome sequences[J]. Nature Reviews Genetics, 2023: 1-20.](https://www.nature.com/articles/s41576-023-00590-0)
 
+    [Krusche P, Trigg L, Boutros P C, et al. Best practices for benchmarking germline small-variant calls in human genomes[J]. Nature biotechnology, 2019, 37(5): 555-560.](https://www.nature.com/articles/s41587-019-0054-x)
+    
+    [Ha Y J, Kang S, Kim J, et al. Comprehensive benchmarking and guidelines of mosaic variant calling strategies[J]. Nature Methods, 2023, 20(12): 2058-2067.](https://www.nature.com/articles/s41592-023-02043-2)
+
 7.  **SV变异检测性能评估**
 
     7-1 基于GRch37版本HG002真集下载：
