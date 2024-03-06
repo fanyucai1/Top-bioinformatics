@@ -64,6 +64,7 @@
 - [bioinforamtic documents](./bioinformatic_documents/README.md)
 - [Genome in a Bottle Consortium Genomes](./GIAB/README.md)
 - [Mac电脑](./MAC/README.md)
+- [low pass WGS](./low_pass_WGS/README.md)
 
 # out_link:
 
