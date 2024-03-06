@@ -54,6 +54,7 @@
 - [python3](./python3/README.md)
 - [Metagenomic](./metagenomics/README.md)
 - [Benchmark_SNV_CNV_SV](./Benchmark_SNV_CNV_SV/README.md)
+- [sample_qc](./sample_qc/README.md)
 - [somatic](./somatic/README.md)
 - [germline](./germline/README.md)
 - [ACMG_AMP_SCCO_CAP](./ACMG_AMP_ASCO_CAP/README.md)
