@@ -31,4 +31,4 @@
     [Chalmers Z R, Connelly C F, Fabrizio D, et al. Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden[J]. Genome medicine, 2017, 9: 1-14.](https://link.springer.com/article/10.1186/s13073-017-0424-2)
     [Zehir A, Benayed R, Shah R H, et al. Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients[J]. Nature medicine, 2017, 23(6): 703-713.](https://www.nature.com/articles/nm.4333)
 
-7. [somatic_ML](./README.md)
+7. [somatic机器学习](./ML/README.md)
