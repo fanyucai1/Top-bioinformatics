@@ -2,47 +2,47 @@
 
 [菜鸟教程:https://www.runoob.com](https://www.runoob.com)
 
-[R语言学习资源:Cookbook for R ](http://www.cookbook-r.com)
+[R语言学习资源:Cookbook for R](http://www.cookbook-r.com)
 
-[R语言学习资源:tidyverse ](https://www.tidyverse.org/)
+[R语言学习资源:tidyverse](https://www.tidyverse.org/)
 
-[python学习在线资源:Cookbook for python ](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
+[python学习在线资源:Cookbook for python](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
-[文献下载网站:GeenMedical ](https://www.geenmedical.com)
+[文献下载网站:GeenMedical](https://www.geenmedical.com)
 
-[书籍下载：鸠摩搜索 ](https://www.jiumodiary.com)
+[书籍下载：鸠摩搜索](https://www.jiumodiary.com)
 
-[在线Markdown简单实用说明:Markdown ](https://commonmark.org/help/)
+[在线Markdown简单实用说明:Markdown](https://commonmark.org/help/)
 
-[变异位点命名:Mutalyzer ](https://mutalyzer.nl)
+[变异位点命名:Mutalyzer](https://mutalyzer.nl)
 
-[变异位点命名:VariantValidator ](https://variantvalidator.org)
+[变异位点命名:VariantValidator](https://variantvalidator.org)
 
-[ACMG中文指南 ](http://acmg.cbgc.org.cn/doku.php?id=start)
+[ACMG中文指南](http://acmg.cbgc.org.cn/doku.php?id=start)
 
-[Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库 OncoKB: A Precision Oncology Knowledge Base ](https://www.oncokb.org/)
+[Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库 OncoKB: A Precision Oncology Knowledge Base](https://www.oncokb.org/)
 
-[medicalxpress ](https://medicalxpress.com/)
+[medicalxpress](https://medicalxpress.com/)
 
-[genomeweb ](https://www.genomeweb.com/)
+[genomeweb](https://www.genomeweb.com/)
 
-[测序中国 ](https://www.seqchina.cn/)
+[测序中国](https://www.seqchina.cn/)
 
-[github中文排行榜 ](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+[github中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 
-[清华大学开源软件镜像站 ](https://mirrors.tuna.tsinghua.edu.cn/)
+[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
-[命名标准化HGNC:https://www.genenames.org ](https://www.genenames.org)
+[命名标准化HGNC:https://www.genenames.org](https://www.genenames.org)
 
-[GeneCards:https://www.genecards.org ](GeneCards)
+[GeneCards:https://www.genecards.org](GeneCards)
 
-[变异位点命名:Mutalyzer ](https://mutalyzer.nl)
+[变异位点命名:Mutalyzer](https://mutalyzer.nl)
 
-[变异位点命名:VariantValidator ](https://variantvalidator.org)
+[变异位点命名:VariantValidator](https://variantvalidator.org)
 
-[序列重比对:abra2 ](https://github.com/mozack/abra2)
+[序列重比对:abra2](https://github.com/mozack/abra2)
 
-[文档转化Pandoc a universal document converter ](https://pandoc.org/index.html)
+[文档转化Pandoc a universal document converter](https://pandoc.org/index.html)
 
 # Inner_link:本地链接
 
@@ -81,15 +81,15 @@
 
 # Online Knowledge Bases to Aid Clinical Decision Making
 
-[My Cancer Genome:www.mycancergenome.org ](www.mycancergenome.org)
+[My Cancer Genome:www.mycancergenome.org](www.mycancergenome.org)
 
-[JAX Clinical Knowledgebase:https://ckb.jax.org ](https://ckb.jax.org)
+[JAX Clinical Knowledgebase:https://ckb.jax.org](https://ckb.jax.org)
 
-[Clinical Interpretation of Variants in Cancer:https://civic.genome.wustl.edu> ](https://civic.genome.wustl.edu)
+[Clinical Interpretation of Variants in Cancer:https://civic.genome.wustl.edu>](https://civic.genome.wustl.edu)
 
-[Oncology Knowledge Base:https://oncokb.org ](https://oncokb.org)
+[Oncology Knowledge Base:https://oncokb.org](https://oncokb.org)
 
-[Clinical Genome:https://clinicalgenome.org ](https://clinicalgenome.org)
+[Clinical Genome:https://clinicalgenome.org](https://clinicalgenome.org)
 
 # Variant and Mutation Databases
 
