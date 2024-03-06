@@ -87,11 +87,6 @@
 
 [Clinical Genome:https://clinicalgenome.org ](https://clinicalgenome.org)
 
-1.  For hot spot testing, coverage of at least 100–300X is recommended.
-
-2.  Example of Hierarchy of Evidence of Genomic Alterations
-
-    .. image:: Hierarchy.jpeg
 
 # other
 
@@ -102,3 +97,10 @@
 2.  Example of a valid VCF file with header and a few variant site records.
 
 ![VCF](./bioinformatic_documents/VCF.jpg)
+
+3.  For hot spot testing, coverage of at least 100–300X is recommended.
+
+4. Example of Hierarchy of Evidence of Genomic Alterations
+
+![证据层级](./somatic/Hierarchy.jpeg)
+
