@@ -10,7 +10,7 @@
 
 [文献下载网站:GeenMedical](https://www.geenmedical.com)
 
-[书籍下载：鸠摩搜索](https://www.jiumodiary.com)
+[书籍下载鸠摩搜索](https://www.jiumodiary.com)
 
 [在线Markdown简单实用说明:Markdown](https://commonmark.org/help/)
 
