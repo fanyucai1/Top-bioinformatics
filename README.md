@@ -110,11 +110,11 @@
 
 1.  **Illustration of relationship between sequencing depth and variant call confidence as a function of VAF.**
 
-![depth-VAF](./bioinformatic_documents/depth_VAF.jpg)
+![depth-VAF](./depth_VAF.jpg)
 
 2.  **Example of a valid VCF file with header and a few variant site records.**
 
-![VCF](./bioinformatic_documents/VCF.jpg)
+![VCF](./VCF.jpg)
 
 3.  **For hot spot testing, coverage of at least 100–300X is recommended.**
 
