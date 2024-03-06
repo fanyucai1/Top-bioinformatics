@@ -205,3 +205,7 @@
     Human Pangenome Reference Consortium: https://humanpangenome.org/
 
     T2T-CHM13: https://github.com/marbl/CHM13
+
+9. 标准品家系普
+
+![GIAB家系普](../Benchmark_SNV_CNV_SV/GIAB.png)
