@@ -32,3 +32,7 @@
     [Zehir A, Benayed R, Shah R H, et al. Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients[J]. Nature medicine, 2017, 23(6): 703-713.](https://www.nature.com/articles/nm.4333)
 
 7. [somatic机器学习](./ML/README.md)
+
+8. **Example of Hierarchy of Evidence of Genomic Alterations**
+
+![证据层级](./Hierarchy.jpeg)

@@ -100,11 +100,7 @@
 
 3.  **For hot spot testing, coverage of at least 100–300X is recommended.**
 
-4.  **Example of Hierarchy of Evidence of Genomic Alterations**
-
-![证据层级](./somatic/Hierarchy.jpeg)
-
-5.  **Whole Genome Sequencing (WGS) finds its primary clinical applications in diagnosing rare diseases and pinpointing actionable somatic variants within tumors.**
+4.  **Whole Genome Sequencing (WGS) finds its primary clinical applications in diagnosing rare diseases and pinpointing actionable somatic variants within tumors.**
 
 ![clinical_WGS](./clinical_WGS.png)
 
