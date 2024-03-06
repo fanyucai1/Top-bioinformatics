@@ -75,6 +75,8 @@
 
 [T2T-CHM13: https://github.com/marbl/CHM13](https://github.com/marbl/CHM13)
 
+[GWASLab–GWAS实验室](https://gwaslab.org/)
+
 # Online Knowledge Bases to Aid Clinical Decision Making
 
 [My Cancer Genome:www.mycancergenome.org ](www.mycancergenome.org)
