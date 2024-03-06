@@ -6,7 +6,7 @@
 
 [Miller DT, et al. ACMG SF v3.2 list for reporting of secondary findings in clinical exome and genome sequencing: A policy statement of the American College of Medical Genetics and Genomics (ACMG). Genet Med. 2023.](https://www.gimjournal.org/article/S1098-3600(23)00879-1/fulltext)
 
-![2019-全基因组测序在遗传病检测中的临床应用专家共识](./2019-全基因组测序在遗传病检测中的临床应用专家共识.pdf)
+[2019-全基因组测序在遗传病检测中的临床应用专家共识](./2019-全基因组测序在遗传病检测中的临床应用专家共识.pdf)
    
 ## tumor 肿瘤体细胞
 
@@ -20,8 +20,8 @@
 
 ## CAP
 
-![CAP Accreditation Program-Molecular Pathology Checklist.pdf](./CAP Accreditation Program-Molecular Pathology Checklist.pdf)
+[CAP Accreditation Program-Molecular Pathology Checklist.pdf](./CAP Accreditation Program-Molecular Pathology Checklist.pdf)
 
 ## AMP
 
-![Implementation of AMP Guidelines.pdf](./Implementation of AMP Guidelines.pdf)
+[Implementation of AMP Guidelines.pdf](./Implementation of AMP Guidelines.pdf)
