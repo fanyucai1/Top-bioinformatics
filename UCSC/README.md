@@ -31,3 +31,12 @@
      REJECT=rejected_variants.vcf \\
      R=reference_sequence.fasta
      其中The reference sequence (fasta) for the TARGET genome build
+
+**convert GRch37 to hg19**
+
+     gatk  --java-options "-Djava.io.tmpdir=./ -Xmx60G"" LiftoverVcf -I query.vcf.gz -O query.hg19.vcf.gz -R ucsc.hg19.fasta --REJECT unmapped.vcf -C b37tohg19.chain
+     
+     bgzip -c query.hg19.vcf > query.hg19.vcf.gz
+     
+     tabix -p vcf query.hg19.vcf.gz
+

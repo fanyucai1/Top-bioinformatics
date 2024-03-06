@@ -1,0 +1,18 @@
+---
+title: "Hello World"
+header-includes:
+- |
+    ```{=latex}
+        \usepackage{fvextra}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+      commandchars=\\\{\},
+      breaklines, breaknonspaceingroup, breakanywhere}
+    ```
+output:
+
+geometry: margin=0.5in
+mainfont: Times New Roman
+CJKmainfont: STKaiti
+toc: true
+from: markdown_strict+backtick_code_blocks+fenced_code_attributes+blank_before_blockquote+smart+pipe_tables+link_attributes+hard_line_breaks
+---
