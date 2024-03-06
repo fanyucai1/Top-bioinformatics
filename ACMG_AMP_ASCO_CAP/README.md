@@ -20,8 +20,8 @@
 
 ## CAP
 
-[CAP Accreditation Program-Molecular Pathology Checklist.pdf](./CAP Accreditation Program-Molecular Pathology Checklist.pdf)
+[CAP Accreditation Program-Molecular Pathology Checklist.pdf](./CAP-Accreditation-Program-Molecular-Pathology-Checklist.pdf)
 
 ## AMP
 
-[Implementation of AMP Guidelines.pdf](./Implementation of AMP Guidelines.pdf)
+[Implementation of AMP Guidelines.pdf](./Implementation-of-AMP-Guidelines.pdf)
