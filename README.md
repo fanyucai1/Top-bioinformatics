@@ -30,8 +30,6 @@
 
 [github中文排行榜 ](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 
-[Pycharm软件激活 ](https://www.ajihuo.com/)
-
 [清华大学开源软件镜像站 ](https://mirrors.tuna.tsinghua.edu.cn/)
 
 [命名标准化HGNC:https://www.genenames.org ](https://www.genenames.org)
