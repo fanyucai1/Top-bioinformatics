@@ -93,6 +93,18 @@
 
 [Clinical Genome:https://clinicalgenome.org ](https://clinicalgenome.org)
 
+# Variant and Mutation Databases
+
+[COSMIC: https://cancer.sanger.ac.uk/cosmic](https://cancer.sanger.ac.uk/cosmic)
+
+[HGMD: http://www.hgmd.cf.ac.uk/ac/index.php](http://www.hgmd.cf.ac.uk/ac/index.php)
+
+[ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/](https://www.ncbi.nlm.nih.gov/clinvar/)
+
+[1000 Genomes: https://www.internationalgenome.org/](https://www.internationalgenome.org/)
+
+[GWAS Catalog: https://www.ebi.ac.uk/gwas/](https://www.ebi.ac.uk/gwas/)
+
 
 # other
 
