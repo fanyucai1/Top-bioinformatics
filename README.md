@@ -40,7 +40,7 @@
 
 [变异位点命名:VariantValidator ](https://variantvalidator.org)
 
-[序列重比对abra2 ](https://github.com/mozack/abra2)
+[序列重比对:abra2 ](https://github.com/mozack/abra2)
 
 [文档转化Pandoc a universal document converter ](https://pandoc.org/index.html)
 
