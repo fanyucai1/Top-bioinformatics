@@ -79,6 +79,7 @@
 - [small RNA](./small_RNA/)
 - [methylation](./methylation/)
 - [TMB_MSI](./TMB_MSI/)
+- [HRD](./HRD/README.md)
 
 # out_link:
 
