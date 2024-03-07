@@ -10,6 +10,8 @@
 
 [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
 
+[编程学习：廖雪峰的官方网站](https://www.liaoxuefeng.com)
+
 [Basic-Machine-Learning-Algorithms](https://github.com/weizhixiaoyi/Basic-Machine-Learning-Algorithms)
 
 [文献下载网站:GeenMedical](https://www.geenmedical.com)
