@@ -91,7 +91,7 @@
 
 [JAX Clinical Knowledgebase:https://ckb.jax.org](https://ckb.jax.org)
 
-[Clinical Interpretation of Variants in Cancer:https://civic.genome.wustl.edu>](https://civic.genome.wustl.edu)
+[Clinical Interpretation of Variants in Cancer:https://civic.genome.wustl.edu](https://civic.genome.wustl.edu)
 
 [Oncology Knowledge Base:https://oncokb.org](https://oncokb.org)
 
