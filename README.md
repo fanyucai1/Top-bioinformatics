@@ -64,6 +64,7 @@
 - [Mac电脑](./MAC/README.md)
 - [low pass WGS](./low_pass_WGS/README.md)
 - [single cell单细胞](./single_cell/README.md)
+- [small RNA](./small_RNA/)
 
 # out_link:
 
