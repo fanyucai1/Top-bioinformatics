@@ -30,7 +30,7 @@
 
 [ACMG中文指南](http://acmg.cbgc.org.cn/doku.php?id=start)
 
-[Memorial Sloan Kettering Cancer Center (MSK)的精准肿瘤学知识库 OncoKB: A Precision Oncology Knowledge Base](https://www.oncokb.org/)
+[Memorial Sloan Kettering Cancer Center (MSK)OncoKB: A Precision Oncology Knowledge Base](https://www.oncokb.org/)
 
 [medicalxpress](https://medicalxpress.com/)
 
