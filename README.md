@@ -6,7 +6,7 @@
 
 [R语言学习资源:tidyverse](https://www.tidyverse.org/)
 
-[ggplot2](https://ggplot2-book.org)
+[R语言学习资源:ggplot2](https://ggplot2-book.org)
 
 [python学习在线资源:Cookbook for python](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
