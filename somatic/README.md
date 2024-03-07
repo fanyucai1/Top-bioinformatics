@@ -29,6 +29,7 @@
     [MSK-IMPACT数据库](/http://www.cbioportal.org/study?id=msk_impact_2017)
     [MSK-IMPACT数据分析Pipeline](https://impact-pipeline.readthedocs.io/en/latest/index.html#)
     [Chalmers Z R, Connelly C F, Fabrizio D, et al. Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden[J]. Genome medicine, 2017, 9: 1-14.](https://link.springer.com/article/10.1186/s13073-017-0424-2)
+    [Cheng D T, Prasad M, Chekaluk Y, et al. Comprehensive detection of germline variants by MSK-IMPACT, a clinical diagnostic platform for solid tumor molecular oncology and concurrent cancer predisposition testing[J]. BMC medical genomics, 2017, 10(1): 1-9.](https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-017-0271-4)
     [Zehir A, Benayed R, Shah R H, et al. Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients[J]. Nature medicine, 2017, 23(6): 703-713.](https://www.nature.com/articles/nm.4333)
 
 7. [somatic机器学习](./ML/README.md)
