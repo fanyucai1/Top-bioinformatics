@@ -52,6 +52,8 @@
 
 [文档转化Pandoc a universal document converter](https://pandoc.org/index.html)
 
+[pdf2word](https://www.hipdf.cn)
+
 # Inner_link:本地链接
 
 - [pandoc-markdown2pdf文档转化](./pandoc-markdown2pdf/README.md)
