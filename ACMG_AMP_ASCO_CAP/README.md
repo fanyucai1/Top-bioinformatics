@@ -12,6 +12,8 @@
 
 [Li M M, Datto M, Duncavage E J, et al. Standards and guidelines for the interpretation and reporting of sequence variants in cancer: a joint consensus recommendation of the Association for Molecular Pathology, American Society of Clinical Oncology, and College of American Pathologists[J]. The Journal of molecular diagnostics, 2017, 19(1): 4-23.](https://www.sciencedirect.com/science/article/pii/S1525157816302239)
 
+[二代测序技术在血液肿瘤中的 应用中国专家共识(2018 年版)](./2018-二代测序技术在血液肿瘤中的应用中国专家共识.pdf)
+
 [张绪超, 梁智勇, 王升跃. 二代测序技术在肿瘤精准医学诊断中的应用专家共识[J]. 中华医学杂志, 2018, 98(26): 2057-2065.](https://rs.yiigle.com/CN112137201826/1049798.htm)
 
 [Horak P, Griffith M, Danos A M, et al. Standards for the classification of pathogenicity of somatic variants in cancer (oncogenicity): joint recommendations of Clinical Genome Resource (ClinGen), Cancer Genomics Consortium (CGC), and Variant Interpretation for Cancer Consortium (VICC)[J]. Genetics in Medicine, 2022, 24(5): 986-998.](https://www.sciencedirect.com/science/article/pii/S1098360022000016)
