@@ -8,6 +8,10 @@
 
 [python学习在线资源:Cookbook for python](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
+[Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+
+[Basic-Machine-Learning-Algorithms](https://github.com/weizhixiaoyi/Basic-Machine-Learning-Algorithms)
+
 [文献下载网站:GeenMedical](https://www.geenmedical.com)
 
 [书籍下载鸠摩搜索](https://www.jiumodiary.com)
