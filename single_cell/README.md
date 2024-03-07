@@ -22,3 +22,7 @@
 
 # 商业化两平台比较 BD Rhapsody vs 10x Genomics Chromium
 ![10_vs_BD](./10x_vs_BD.png)
+
+# 降维方法
+
+t-SNE与UMAP,UMAP计算速度快，适用于大细胞数量的样本

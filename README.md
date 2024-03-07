@@ -6,6 +6,8 @@
 
 [R语言学习资源:tidyverse](https://www.tidyverse.org/)
 
+[ggplot2](https://ggplot2-book.org)
+
 [python学习在线资源:Cookbook for python](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
 [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
