@@ -198,7 +198,7 @@
 
     [Seeking Truth: Solving CNV Evaluation Challenges with T2T Genome Assembly](https://broadclinicallabs.org/seeking-truth-solving-cnv-evaluation-challenges-with-t2t-genome-assembly/)
 
-    7-6 SV建议call变异的方法，参考以下文献
+    7-6 单个样本尤其是在临床上，SV建议call变异的方法，参考以下文献
 
     [Jun G, English A C, Metcalf G A, et al. Structural variation across 138,134 samples in the TOPMed consortium[J]. bioRxiv, 2023.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9900832/)
 
