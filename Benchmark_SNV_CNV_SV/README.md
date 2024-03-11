@@ -200,7 +200,7 @@
 
     7-6 SV建议call变异的方法，参考以下文献
 
-    Jun G, English A C, Metcalf G A, et al. Structural variation across 138,134 samples in the TOPMed consortium[J]. bioRxiv, 2023.
+    [Jun G, English A C, Metcalf G A, et al. Structural variation across 138,134 samples in the TOPMed consortium[J]. bioRxiv, 2023.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9900832/)
 
     可以使用Manta, Delly, Lumpy, Breakseq, and CNVnator等独立的分析软件，然后使用SURVIVOR软件将结果merge(1kb范围内的)，SV注释可以使用AnnotSV。或者直接使用Parliament2分析软件。
 
