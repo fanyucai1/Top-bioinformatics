@@ -71,7 +71,6 @@
 - [germline](./germline/README.md)
 - [ACMG_AMP_SCCO_CAP](./ACMG_AMP_ASCO_CAP/README.md)
 - [silico数据模拟](./Silico/README.md)
-- [bioinforamtic documents](./bioinformatic_documents/README.md)
 - [Genome in a Bottle Consortium Genomes](./GIAB/README.md)
 - [Mac电脑](./MAC/README.md)
 - [low pass WGS](./low_pass_WGS/README.md)
