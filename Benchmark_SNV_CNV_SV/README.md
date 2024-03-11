@@ -198,6 +198,12 @@
 
     [Seeking Truth: Solving CNV Evaluation Challenges with T2T Genome Assembly](https://broadclinicallabs.org/seeking-truth-solving-cnv-evaluation-challenges-with-t2t-genome-assembly/)
 
+    7-6 SV建议call变异的方法，参考以下文献
+
+    Jun G, English A C, Metcalf G A, et al. Structural variation across 138,134 samples in the TOPMed consortium[J]. bioRxiv, 2023.
+
+    可以使用Manta, Delly, Lumpy, Breakseq, and CNVnator等独立的分析软件，然后使用SURVIVOR软件将结果merge(1kb范围内的)，SV注释可以使用AnnotSV
+
 8.  **Related links**
 
     GA4GH/GIAB stratifications: https://github.com/genome-in-a-bottle/genome-stratifications
