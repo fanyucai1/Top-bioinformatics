@@ -26,3 +26,7 @@
 # 降维方法
 
 t-SNE与UMAP,UMAP计算速度快，适用于大细胞数量的样本
+
+# 单细胞下游分析工具
+
+[Weber C, Hirst M B, Ernest B, et al. SEQUIN is an R/Shiny framework for rapid and reproducible analysis of RNA-seq data[J]. Cell Reports Methods, 2023, 3(3).](https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00031-0.pdf)
