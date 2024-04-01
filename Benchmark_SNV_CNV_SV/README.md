@@ -203,6 +203,7 @@
     [Jun G, English A C, Metcalf G A, et al. Structural variation across 138,134 samples in the TOPMed consortium[J]. bioRxiv, 2023.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9900832/)
 
     可以使用Manta, Delly, Lumpy, Breakseq, and CNVnator等独立的分析软件，然后使用SURVIVOR软件将结果merge(1kb范围内的)，SV注释可以使用AnnotSV。或者直接使用Parliament2分析软件。
+    对于临床上的SV研究，可以使用(DGV or gnomAD)进行人群频率注释过滤以及变异大小,临床注释数据库DECIPHER
 
 8.  **Related links**
 
