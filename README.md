@@ -69,6 +69,7 @@
 - [GATK](./GATK/README.md)
 - [Linux](./Linux/README.md)
 - [python3](./python3/README.md)
+- [R语言](./R/README.md)
 - [Metagenomic](./metagenomics/README.md)
 - [Benchmark_SNV_CNV_SV](./Benchmark_SNV_CNV_SV/README.md)
 - [sample_qc](./sample_qc/README.md)
