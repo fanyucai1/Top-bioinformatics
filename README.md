@@ -8,6 +8,10 @@
 
 [R语言学习资源:ggplot2](https://ggplot2-book.org)
 
+[R绘制热图heatmap](https://flowingdata.com/2010/01/21/how-to-make-a-heatmap-a-quick-and-easy-solution/)
+
+[RColorBrewer画图颜色选择](http://colorbrewer2.org/)
+
 [python学习在线资源:Cookbook for python](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)
 
 [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
