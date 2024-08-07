@@ -1,0 +1,39 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+export PATH=$HOME/bin:/allwegene2/software/PUBLIC/perl/perl-5.18_multi/bin/:/allwegene2/software/PUBLIC/mcl/bin:/allwegene2/software/PUBLIC/perl/perl-5.18/bin/:/allwegene1/work/fanyucai/software/phred_phrap/phd2fasta:/allwegene1/work/fanyucai/software/phred_phrap/phred:/allwegene2/software/RESEQ/muscle3.5/:/allwegene1/work/fanyucai/software/metaphlan/metaphlan2:/allwegene2/software/RNA/Map/bowtie-1.1.2/:/allwegene1/work/fanyucai/software/bizp2/bzip2-v1.0.6/bin:/allwegene2/software/PUBLIC/NGS_general/samtools-1.3:/allwegene2/software/PUBLIC/NGS_general/vcftools_0.1.13/bin/:/allwegene2/software/PUBLIC/NGS_general/bedtools2-2.25.0/bin/:/allwegene2/software/PUBLIC/NGS_general/htslib-1.2.1/:/allwegene1/work/fanyucai/software/gsl/gsl-v1.13/bin:$PATH
+
+export PATH=/allwegene1/work/fanyucai/software/CAT/CAT-master/CAT/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/jellyfish/jellyfish-v2.2.6/bin/:$PATH
+export PATH=/allwegene2/software/PUBLIC/sratoolkit/sratoolkit.2.8.0-centos_linux64/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/bowtie2/bowtie2-2.2.9/:$PATH
+export PATH=/allwegene2/software/PUBLIC/ncbi-blast-2.5.0+/bin/:$PATH
+export PATH=/allwegene2/software/PUBLIC/velvet_1.2.10/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/seqtk/seqtk-master/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/unrar/rar:$PATH
+export PATH=/allwegene1/work/fanyucai/software/kraken/kraken_v0.10.5:$PATH
+export PATH=/allwegene1/work/fanyucai/software/cdhit/cdhit-master/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/bwa/bwa-0.7.15/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/IDBA/idba-master/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/gtk+/gtk+-v2.24.0/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/diamond/:$PATH
+export PATH=/allwegene2/software/PUBLIC/jdk/jdk1.8.0_101/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/R/R-v3.2.4/bin/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/picard/picard-2.6.0/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/MetaGeneAnnotator/:$PATH
+export PATH=/allwegene1/work/fanyucai/software/hmmer/hmmer-v3.1b2/bin:$PATH
+export PATH=/allwegene1/work/fanyucai/software/blast/blast-2.2.26/bin:$PATH
+export PATH=/allwegene1/work/fanyucai/software/KronaTools/KronaTools-2.7/bin:$PATH
+export PATH=/allwegene1/work/fanyucai/software/python/Python-v2.7.12/bin:$PATH
+export PATH=/allwegene1/work/fanyucai/software/gcc/gcc-v4.8.0/bin/:$PATH
+export mpa_dir=/allwegene1/work/fanyucai/software/metaphlan/metaphlan2:$mpa_dir
+
+export LD_LIBRARY_PATH=/allwegene1/work/fanyucai/software/zlib/zlib-v1.2.8/lib:/allwegene1/work/fanyucai/software/gsl/gsl-v1.13/lib:/allwegene1/work/fanyucai/software/gtk+/gtk+-v2.24.0/lib/:/allwegene1/work/fanyucai/software/R/R-v3.2.4/lib64/R/lib:/allwegene1/work/fanyucai/software/lapack/lapack-3.6.0/:/allwegene1/work/fanyucai/software/bizp2/bzip2-v1.0.6/lib:/allwegene2/software/PUBLIC/perl/perl-5.18/lib/:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/allwegene1/work/fanyucai/software/lib:$LD_LIBRARY_PATH
+export PERL5LIB=/allwegene2/software/PUBLIC/perl/perl-5.18_multi/lib/site_perl/5.18.4/:/allwegene1/work/fanyucai/software/KronaTools/KronaTools-2.7/lib/:/allwegene1/work/fanyucai/software/perl_pm/:$PERL5LIB

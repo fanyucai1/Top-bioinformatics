@@ -1,0 +1,1 @@
+python3 /staging4/fanyucai/metagenomics/script/QC_fastp.py -p1 /staging4/fanyucai/metagenomics/test_data/SRR13439800.1_1.fastq -p2 /staging4/fanyucai/metagenomics/test_data/SRR13439800.1_2.fastq -o /staging4/fanyucai/metagenomics/output/1.qc -p SRR13439800 -a /staging4/fanyucai/metagenomics/reference/adpater/NexteraPE-PE.fa

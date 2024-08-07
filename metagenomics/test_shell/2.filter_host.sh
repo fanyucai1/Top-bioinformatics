@@ -1,0 +1,1 @@
+python3 /staging4/fanyucai/metagenomics/script/filter_host.py -p1 /staging4/fanyucai/metagenomics/output/1.qc/SRR13439800.qc.R1.fq.gz -p2 /staging4/fanyucai/metagenomics/output/1.qc/SRR13439800.qc.R2.fq.gz -p SRR13439800 -i /staging4/fanyucai/metagenomics/reference/human_phix_index/ -o /staging4/fanyucai/metagenomics/output/2.filter_host/

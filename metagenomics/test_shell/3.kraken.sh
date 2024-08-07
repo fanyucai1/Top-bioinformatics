@@ -1,0 +1,1 @@
+python3 /staging4/fanyucai/metagenomics/script/kraken2.py -p1 /staging4/fanyucai/metagenomics/output/2.filter_host/SRR13439800.1.fastq -p2 /staging4/fanyucai/metagenomics/output/2.filter_host/SRR13439800.2.fastq -i /staging4/fanyucai/metagenomics/reference/kraken2/ -o /staging4/fanyucai/metagenomics/output/3.kraken -p SRR13439800
