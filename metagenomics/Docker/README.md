@@ -70,7 +70,7 @@ export PATH=/opt/conda/envs/meta/bin/:$PATH && kreport2krona.py
 export PATH=/opt/conda/envs/meta/bin/:$PATH && spades.py
 
 # megahit: MEGAHIT v1.2.9
-'export PATH=/opt/conda/envs/meta/bin/:$PATH && megahit
+export PATH=/opt/conda/envs/meta/bin/:$PATH && megahit
 
 # freebayes  version:  v1.3.7
 /opt/conda/envs/meta/bin/freebayes
