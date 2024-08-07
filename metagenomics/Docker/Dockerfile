@@ -8,6 +8,6 @@ RUN apk update && \
     /opt/conda/bin/mamba create --name rgi --channel conda-forge --channel bioconda --channel defaults rgi && \
     /opt/conda/bin/mamba create --name metaphlan --channel conda-forge --channel bioconda --channel defaults metaphlan && \
     /opt/conda/bin/mamba create --name prokka --channel conda-forge --channel bioconda --channel defaults prokka && \
-    /opt/conda/bin/mamba create --name meta --channel conda-forge --channel bioconda --channel defaults covtobed gblocks mauve metabat2 fastqtk  \
-    bbmap quast kraken2 krakentools krona minimap2 megahit cd-hit seqtk spades ivar=1.3 freebayes resfinder fastp megan bcftools jellyfish prinseq &&  \
+    /opt/conda/bin/mamba create --name meta --channel conda-forge --channel bioconda --channel defaults covtobed metabat2 fastqtk  \
+    bbmap quast kraken2 krakentools krona minimap2 megahit cd-hit seqtk spades ivar=1.3 freebayes resfinder fastp megan bcftools prinseq &&  \
     /opt/conda/bin/conda clean -a -y && mkdir -p /script/ /raw_data/ /ref/ /outdir/

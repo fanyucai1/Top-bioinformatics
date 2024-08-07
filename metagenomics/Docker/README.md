@@ -104,6 +104,4 @@ export PATH=/opt/conda/envs/meta/bin/:$PATH && python3 -m resfinder
 
 # covtobed 1.3.5
 /opt/conda/envs/meta/bin/covtobed 
-
-
 ```
