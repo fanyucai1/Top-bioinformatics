@@ -54,7 +54,11 @@ CARD   ::
 
 
 
-kraken2 ::
+Kraken2 ::
+
+
+    Kraken Wiki:https://github.com/DerrickWood/kraken2/wiki
+    Kraken index: https://benlangmead.github.io/aws-indexes/k2
 
     mkdir -p reference/kraken2
     cd reference/kraken2
