@@ -101,6 +101,11 @@ export PATH=/opt/conda/envs/prokka/bin/:$PATH && prokka
 # megan 6.25.9
 /opt/conda/envs/meta/bin/blast2lca
 
+# ResFinder 4.5.0
+export PATH=/opt/conda/envs/meta/bin/:$PATH && python3 -m resfinder
+
+# bbmap
+/opt/conda/envs/meta/bin/bbmap.sh
 ```
 
 ## step3:script
