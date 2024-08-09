@@ -103,5 +103,11 @@ export PATH=/opt/conda/envs/meta/bin/:$PATH && python3 -m resfinder
 /opt/conda/envs/meta/bin/ktImportKrona
 
 # covtobed 1.3.5
-/opt/conda/envs/meta/bin/covtobed 
+/opt/conda/envs/meta/bin/covtobed
+
+# MultiQC v1.23
+/opt/conda/envs/meta/bin/multiqc
+
+# Kaiju 1.10.1
+/opt/conda/envs/meta/bin/kaiju
 ```
