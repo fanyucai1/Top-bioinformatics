@@ -3,7 +3,7 @@ import subprocess
 import argparse
 import json
 
-docker_name="mngs:latest"
+docker_name="meta:latest"
 parser=argparse.ArgumentParser("Quality control")
 parser.add_argument("-p1","--pe1",help="5' reads",required=True)
 parser.add_argument("-p2","--pe2",help="3' reads",required=True)

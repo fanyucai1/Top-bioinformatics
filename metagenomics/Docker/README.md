@@ -33,81 +33,69 @@ export PATH=/opt/conda/envs/rgi/bin/:$PATH && bowtie2
 # rgi 6.0.3
 /opt/conda/envs/rgi/bin/rgi
 
-# MetaPhlAn version 4.1.1 (11 Mar 2024)
-/opt/conda/envs/metaphlan/bin/metaphlan
-
-# FastTree
-/opt/conda/envs/metaphlan/bin/FastTree
-
-# MAFFT v7.526
-/opt/conda/envs/metaphlan/bin/mafft
-
 # bcftools 1.20 
-/opt/conda/envs/meta/bin/bcftools
+/opt/conda/bin/bcftools
 
 # CD-HIT version 4.8.1
-/opt/conda/envs/meta/bin/cd-hit
+/opt/conda/bin/cd-hit
 
 #Kraken version 2.1.3
-export PATH=/opt/conda/envs/meta/bin/:$PATH && kraken2
+export PATH=/opt/conda/bin/:$PATH && kraken2
 
 #krakentools
-export PATH=/opt/conda/envs/meta/bin/:$PATH && kreport2krona.py
-
-# hmmer
-/opt/conda/envs/meta/bin//hmmscan
+export PATH=/opt/conda/bin/:$PATH && kreport2krona.py
 
 # seqtk 1.4-r122
-/opt/conda/envs/meta/bin/seqtk
+/opt/conda/bin/seqtk
 
 # fastp version 0.23.4
-/opt/conda/envs/meta/bin/fastp
+/opt/conda/bin/fastp
 
 # QUAST: Quality Assessment Tool for Genome Assemblies Version: 5.2.0
-/opt/conda/envs/meta/bin/quast.py
+/opt/conda/bin/quast.py
 
 #SPAdes genome assembler v4.0.0
-export PATH=/opt/conda/envs/meta/bin/:$PATH && spades.py
+export PATH=/opt/conda/bin/:$PATH && spades.py
 
 # megahit: MEGAHIT v1.2.9
-export PATH=/opt/conda/envs/meta/bin/:$PATH && megahit
+export PATH=/opt/conda/bin/:$PATH && megahit
 
 # freebayes  version:  v1.3.7
-/opt/conda/envs/meta/bin/freebayes
+/opt/conda/bin/freebayes
 
 # minimap2 2.28-r1209
-/opt/conda/envs/meta/bin/minimap2
+/opt/conda/bin/minimap2
 
 # iVar version 1.3.2
-/opt/conda/envs/meta/bin/ivar
+/opt/conda/bin/ivar
 
 # PRINSEQ-lite 0.20.4
-export PATH=/opt/conda/envs/meta/bin/:$PATH && prinseq-lite.pl
-
-#  Prokka 1.14.6 
-export PATH=/opt/conda/envs/prokka/bin/:$PATH && prokka
+export PATH=/opt/conda/bin/:$PATH && prinseq-lite.pl
 
 # megan 6.25.9
-/opt/conda/envs/meta/bin/blast2lca
+/opt/conda/bin/blast2lca
 
 # ResFinder 4.5.0
-export PATH=/opt/conda/envs/meta/bin/:$PATH && python3 -m resfinder
+export PATH=/opt/conda/bin/:$PATH && python3 -m resfinder
 
 # bbmap
-/opt/conda/envs/meta/bin/bbmap.sh
+/opt/conda/bin/bbmap.sh
 
 # fastqtk Version: 0.27
-/opt/conda/envs/meta/bin/fastqtk
+/opt/conda/bin/fastqtk
 
 # krona
-/opt/conda/envs/meta/bin/ktImportKrona
+/opt/conda/bin/ktImportKrona
 
 # covtobed 1.3.5
-/opt/conda/envs/meta/bin/covtobed
+/opt/conda/bin/covtobed
 
 # MultiQC v1.23
-/opt/conda/envs/meta/bin/multiqc
+/opt/conda/bin/multiqc
 
 # Kaiju 1.10.1
-/opt/conda/envs/meta/bin/kaiju
+/opt/conda/bin/kaiju
+
+# MAFFT v7.526
+/opt/conda/bin/mafft
 ```
