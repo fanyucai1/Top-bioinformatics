@@ -2,7 +2,7 @@ import os
 import subprocess
 import argparse
 
-docker_name="mngs:latest"
+docker_name="meta:latest"
 parser=argparse.ArgumentParser("Filter human host and phix sequence.")
 parser.add_argument("-p1","--pe1",help="5' reads",required=True)
 parser.add_argument("-p2","--pe2",help="3' reads",required=True)

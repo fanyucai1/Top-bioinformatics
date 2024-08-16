@@ -1,20 +1,24 @@
-import os
-import argparse
+import os,sys,re
 import subprocess
+import argparse
 import json
 
-docker="meta:latest"
+docker_name="meta:latest"
+fastp_kraken2="-e \'export PATH=/opt/conda/bin:$PATH\'"
+bowtie2='-e \'export PATH=/opt/conda/envs/rgi/bin:$PATH\''
 
 def run(pe1,outdir,prefix,pe2=None):
     pe1=os.path.abspath(pe1)
     if not os.path.exists(outdir):
         os.makedirs(outdir)
     out=outdir+'/'+prefix
+    cmd="docker run -v %s:/tmp/ %s %s sh -c \'"%(outdir,fastp_kraken2,docker_name)
     if pe2 is None:
         cmd = "fastp -i %s -o %s.qc.R1.fq.gz --length_required 36 --dedup --thread 16 --low_complexity_filter --html %s.fastp.html --json %s.fastp.json" % (pe1, out, out, out)
     else:
         pe2=os.path.abspath(pe2)
         cmd = "fastp -i %s -I %s -o %s.qc.R1.fq.gz -O %s.qc.R2.fq.gz --length_required 36 --dedup --thread 16 --low_complexity_filter --html %s.fastp.html --json %s.fastp.json" % (pe1, pe2,out, out, out, out)
+    cmd+="\'"
     subprocess.check_call(cmd, shell=True)
     outfile = open("%s.fastp.tsv" % (out), "w")
     outfile.write("SampleID\tTotal_reads\tTotal_bases\tQ20_rate\tQ30_rate\tgc_content\tTotal_reads(clean)\tTotal_bases\tQ20_rate\tQ30_rate\tgc_content\n")
@@ -36,12 +40,13 @@ def run(pe1,outdir,prefix,pe2=None):
 
     outfile.close()
 
-if __name__=="__main__":
-    parser=argparse.ArgumentParser("Run fastp.")
-    parser.add_argument("-1","--R1",help="R1 fastq.gz",required=True)
-    parser.add_argument("-2","--R2",help="R2 fastq.gz",default=None)
-    parser.add_argument("-p","--prefix",help="prefix of output",required=True)
-    parser.add_argument("-o","--outdir",help="output directory",required=True)
-    parser.add_argument("-c", "--config", help="config file", required=True)
-    args=parser.parse_args()
-    run(args.R1,args.outdir,args.prefix,args.R2)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser("Run fastp,bowtie2,kraken2.")
+    parser.add_argument("-1", "--R1", help="R1 fastq.gz", required=True)
+    parser.add_argument("-2", "--R2", help="R2 fastq.gz", default=None)
+    parser.add_argument("-p", "--prefix", help="prefix of output", required=True)
+    parser.add_argument("-o", "--outdir", help="output directory", required=True)
+    parser.add_argument("-b2", "--bowtie2_index", help="directory bowtie2 index", required=True)
+    parser.add_argument("-k2", "--kraken2_index", help="directory kraken2 index", required=True)
+    args = parser.parse_args()

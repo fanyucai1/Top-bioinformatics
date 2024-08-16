@@ -3,9 +3,14 @@ import subprocess
 import argparse
 import re
 
+docker="meta:latest"
 def run(pe1,index,outdir,prefix,pe2=None):
-    pe1=os.path.abspath(pe1)
-    outdir=os.path.abspath(outdir)
+    pe1 = os.path.abspath(pe1)
+    in_dir = os.path.abspath(pe1)
+    outdir = os.path.abspath(outdir)
+    if not os.path.exists(outdir):
+        os.makedirs(outdir)
+    a = pe1.split("/")[-1]
     out=outdir+"/"+prefix
     cmd=""
     if pe2 is None:

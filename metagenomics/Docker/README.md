@@ -33,6 +33,12 @@ export PATH=/opt/conda/envs/rgi/bin/:$PATH && bowtie2
 # rgi 6.0.3
 /opt/conda/envs/rgi/bin/rgi
 
+# fastANI version 1.32
+/opt/conda/envs/gtdbtk/bin/fastANI
+
+#HMMER 3.4
+/opt/conda/envs/gtdbtk/bin/hmmscan
+
 # bcftools 1.20 
 /opt/conda/bin/bcftools
 
@@ -48,8 +54,20 @@ export PATH=/opt/conda/bin/:$PATH && kreport2krona.py
 # seqtk 1.4-r122
 /opt/conda/bin/seqtk
 
+# FastQC
+/opt/conda/bin/fastqc
+
 # fastp version 0.23.4
 /opt/conda/bin/fastp
+
+# trimmomatic 0.39
+/opt/conda/bin/trimmomatic
+
+# cutadapt version 4.9
+/opt/conda/bin/cutadapt
+
+# Bracken v2.9
+/opt/conda/bin/bracken
 
 # QUAST: Quality Assessment Tool for Genome Assemblies Version: 5.2.0
 /opt/conda/bin/quast.py
@@ -93,9 +111,9 @@ export PATH=/opt/conda/bin/:$PATH && python3 -m resfinder
 # MultiQC v1.23
 /opt/conda/bin/multiqc
 
-# Kaiju 1.10.1
-/opt/conda/bin/kaiju
-
 # MAFFT v7.526
 /opt/conda/bin/mafft
+
+# Prokka 1.14.6
+export PATH=/opt/conda/bin/:$PATH && prokka
 ```
