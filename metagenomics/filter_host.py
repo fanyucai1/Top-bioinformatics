@@ -1,4 +1,5 @@
-#Lu J, Rincon N, Wood D E, et al. Metagenome analysis using the Kraken software suite[J]. Nature protocols, 2022, 17(12): 2815-2839.
+# Lu J, Rincon N, Wood D E, et al. Metagenome analysis using the Kraken software suite[J]. Nature protocols, 2022, 17(12): 2815-2839.
+# Bush S J, Connor T R, Peto T E A, et al. Evaluation of methods for detecting human reads in microbial sequencing datasets[J]. Microbial genomics, 2020, 6(7): e000393.
 import os
 import subprocess
 import argparse
@@ -24,8 +25,9 @@ def run(pe1,index,outdir,prefix,pe2=None):
         if in_dir != os.path.dirname(pe2):
             print("read1 and reads2 must be in the same directory.")
             exit()
-        b = pe2.split("/")[-1]
-        cmd+= "-2 /raw_data/%s" % (b)
+        else:
+            b = pe2.split("/")[-1]
+            cmd+= "-2 /raw_data/%s" % (b)
     cmd+=" --un-conc-gz /outdir/%s.fastq.gz -S /outdir/%s.sam"%(prefix,prefix)
     print(cmd)
     subprocess.check_call(cmd,shell=True)
