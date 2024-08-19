@@ -11,15 +11,15 @@ docker="meta:latest"
 #     deduplication for FASTQ data
 def run(pe1,outdir,prefix,pe2=None):
     pe1 = os.path.abspath(pe1)
-    in_dir = os.path.abspath(pe1)
+    in_dir = os.path.dirname(pe1)
     outdir = os.path.abspath(outdir)
     if not os.path.exists(outdir):
         os.makedirs(outdir)
     a = pe1.split("/")[-1]
 
-    cmd = "docker run -v %s:/raw_data/ -v %s:/outdir/ -e \'export PATH=/opt/conda/bin:$PATH\' %s " % (in_dir,outdir, docker)
+    cmd = "docker run -v %s:/raw_data/ -v %s:/outdir/ -e PATH=/opt/conda/bin:$PATH %s " % (in_dir,outdir, docker)
     cmd += ("fastp -i /raw_data/%s -o /outdir/%s.qc.R1.fq.gz "
-            "--length_required 36 --dedup --thread 16 --low_complexity_filter "
+            "--length_required 36 --dedup --thread 16 --low_complexity_filter --qualified_quality_phred 20 "
             "--html /outdir/%s.fastp.html --json /outdir/%s.fastp.json ") % (a, prefix, prefix, prefix)
     if pe2 is not None:
         pe2=os.path.abspath(pe2)
