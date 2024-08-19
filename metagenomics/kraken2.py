@@ -14,7 +14,7 @@ def run(pe1,index,prefix,outdir,pe2=None,read_length=150):
         os.makedirs(outdir)
     a = pe1.split("/")[-1]
     cmd = ("docker run -v %s:/raw_data/ -v %s:/ref/ -v %s:/outdir/ -e PATH=/usr/bin/:/opt/conda/bin:$PATH %s "
-           "kraken2 --db /ref/ --threads 24 --output /outdir/%s.txt --minimum-base-quality 20 --report /outdir/%s.report.txt")%(in_dir,index,outdir,docker,prefix,prefix)
+           "kraken2 --db /ref/ --threads 24 --output /outdir/%s.txt --minimum-base-quality 20 --report /outdir/%s.report.txt")%(in_dir,os.path.abspath(index),outdir,docker,prefix,prefix)
     if pe2 is not None:
         pe2 = os.path.abspath(pe2)
         if in_dir != os.path.dirname(pe2):
@@ -29,7 +29,7 @@ def run(pe1,index,prefix,outdir,pe2=None,read_length=150):
     cmd+=" && bracken -d /ref/ -i /outdir/%s.report.txt -r %s -o /outdir/%s.bracken -w /outdir/%s.breport -t 10"%(prefix,read_length,prefix,prefix)
     #Generate Krona Plots
     cmd+=(" && kreport2krona.py -r /outdir/%s.breport -o /outdir/%s.krona.txt --no-intermediate-ranks && "
-          "ktImportText /outdir/%s.krona.txt -o /outdir/%s.html")%(prefix,prefix,prefix)
+          "ktImportText /outdir/%s.krona.txt -o /outdir/%s.html")%(prefix,prefix,prefix,prefix)
     print(cmd)
     subprocess.check_call(cmd,shell=True)
 
