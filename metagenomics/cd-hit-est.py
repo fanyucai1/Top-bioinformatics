@@ -2,14 +2,15 @@ import sys,os
 import subprocess
 import argparse
 
-
+docker="meta:latest"
 def run(fa,outdir,prefix):
     fa=os.path.abspath(fa)
     outdir=os.path.abspath(outdir)
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    out=os.path.join(outdir,prefix)
-    cmd= "cd-hit-est -i %s -o %s.fasta -c 0.95 -n 5 -g 1 -aS 0.8 -T 0" % (fa,out)
+    in_dir=os.path.dirname(fa)
+    cmd= ("docker run -v %s:/raw_data/ -v %s:/outdir/ %s sh -c \'export PATH=/opt/conda/bin/:$PATH && "
+          "cd-hit-est -i %s -o /outdir/%s.fasta -c 0.95 -n 5 -g 1 -aS 0.8 -T 0\'") % (in_dir,outdir,fa.split('/')[-1],prefix)
     subprocess.call(cmd,shell=True)
 
 

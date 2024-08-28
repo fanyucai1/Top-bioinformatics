@@ -33,7 +33,7 @@ for i in os.listdir(args.index):
         host_index=i.split(".1.bt2")[0]
 print(host_index)
 cmd="docker run -v %s:/raw_data/ -v %s:/reference/ -v %s:/outdir/ %s "%(in_dir,reference_dir,args.outdir,docker_name)
-cmd+="sh -c \"/software/bowtie2-2.4.5-linux-x86_64/bowtie2 --very-sensitive-local --no-sq -p 48 -x /reference/%s -1 //raw_data/%s -2 /raw_data/%s " \
+cmd+="sh -c \"bowtie2 --very-sensitive-local --no-sq -p 48 -x /reference/%s -1 /raw_data/%s -2 /raw_data/%s " \
     "--un-conc /outdir/%s.fastq -S /outdir/%s.mapped.sam && rm -rf /outdir/%s.mapped.sam\"" \
      %(host_index,a,b,args.prefix,args.prefix,args.prefix)
 print(cmd)

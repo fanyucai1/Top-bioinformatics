@@ -17,8 +17,8 @@ def run(pe1,outdir,prefix,pe2=None):
         os.makedirs(outdir)
     a = pe1.split("/")[-1]
 
-    cmd = "docker run -v %s:/raw_data/ -v %s:/outdir/ -e PATH=/opt/conda/bin:$PATH %s " % (in_dir,outdir, docker)
-    cmd += ("fastp -i /raw_data/%s -o /outdir/%s.qc.R1.fq.gz "
+    cmd = "docker run -v %s:/raw_data/ -v %s:/outdir/ %s " % (in_dir,outdir, docker)
+    cmd += ("sh -c \'fastp -i /raw_data/%s -o /outdir/%s.qc.R1.fq.gz "
             "--length_required 36 --dedup --thread 16 --low_complexity_filter --qualified_quality_phred 20 "
             "--html /outdir/%s.fastp.html --json /outdir/%s.fastp.json ") % (a, prefix, prefix, prefix)
     if pe2 is not None:
@@ -27,7 +27,9 @@ def run(pe1,outdir,prefix,pe2=None):
             print("read1 and reads2 must be in the same directory.")
             exit()
         b = pe2.split("/")[-1]
-        cmd += ("-I /raw_data/%s -O /outdir/%s.qc.R2.fq.gz") % (b,prefix)
+        cmd += ("-I /raw_data/%s -O /outdir/%s.qc.R2.fq.gz\'") % (b,prefix)
+    else:
+        cmd+='\''
     print(cmd)
     subprocess.check_call(cmd, shell=True)
     out=outdir+'/'+prefix
@@ -53,9 +55,9 @@ def run(pe1,outdir,prefix,pe2=None):
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser("Run fastp quality control.")
-    parser.add_argument("-1","--R1",help="R1 fastq.gz",required=True)
-    parser.add_argument("-2","--R2",help="R2 fastq.gz",default=None)
+    parser.add_argument("-p1","--pe1",help="R1 fastq.gz",required=True)
+    parser.add_argument("-p2","--pe2",help="R2 fastq.gz",default=None)
     parser.add_argument("-p","--prefix",help="prefix of output",required=True)
     parser.add_argument("-o","--outdir",help="output directory",required=True)
     args=parser.parse_args()
-    run(args.R1,args.outdir,args.prefix,args.R2)
+    run(args.pe1,args.outdir,args.prefix,args.pe2)
